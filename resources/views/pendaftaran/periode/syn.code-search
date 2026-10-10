@@ -1,0 +1,182 @@
+# Query: syn
+# ContextLines: 1
+
+44 results - 2 files
+
+resources\views\landing.blade.php:
+     9      <link rel="icon" type="image/png" href="{{ asset('images/himadikti.png') }}">
+    10:     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    11      <script src="https://cdn.tailwindcss.com"></script>
+
+   229          .pk-title {
+   230:             font-family: '', sans-serif;
+   231              font-weight: 800;
+
+   270          .pk-counter-val {
+   271:             font-family: 'Syne', sans-serif;
+   272              font-size: clamp(30px, 4vw, 48px);
+
+   297              padding: 12px 32px; border-radius: 999px;
+   298:             font-family: 'Syne', sans-serif;
+   299              font-size: 13px; font-weight: 700;
+
+   362          .pk-lb-title {
+   363:             font-family: 'Syne', sans-serif; font-weight: 800;
+   364              font-size: clamp(18px, 3vw, 26px);
+
+   388          }
+   389:         .pk-lb-stat-value { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; color: #fff; }
+   390          .pk-lb-stat-value.accent { color: #fb923c; }
+
+   538          .card-inti .card-body { padding: 1rem; background: #fff; }
+   539:         .card-inti .card-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; color: #111827; }
+   540          .card-inti .card-role { color: #ea580c; font-size: 0.7rem; margin-top: 4px; font-weight: 600; }
+
+   591          .divisi-card h3 {
+   592:             font-family: 'Syne', sans-serif; font-weight: 800; color: #fff;
+   593              font-size: clamp(14px, 2vw, 20px); line-height: 1.2; margin-bottom: 4px;
+
+   627                  </div>
+   628:                 <span class="font-syne font-extrabold text-xl tracking-tight text-white group-hover:text-orange-500 transition-colors">HIMADIKTI</span>
+   629              </a>
+
+   640                  <a href="/login"    class="hidden sm:block text-[0.85rem] font-bold text-white/80 no-underline hover:text-white transition-colors">Masuk</a>
+   641:                 <a href="/register" class="px-6 py-2.5 bg-orange-600 text-white font-syne text-[0.8rem] font-bold no-underline rounded-full transition-all duration-300 hover:bg-orange-500 hover:shadow-[0_8px_20px_rgba(234,88,12,0.4)] hover:-translate-y-0.5 active:scale-95">Daftar</a>
+   642              </div>
+
+   664              <div class="flex gap-3 md:gap-4 justify-center flex-wrap hero-btns-anim">
+   665:                 <a href="/login" class="px-6 md:px-9 py-3 md:py-4 bg-primary-600 text-white font-syne text-sm md:text-[15px] font-bold no-underline rounded-[10px] transition-all duration-300 flex items-center gap-2 hover:bg-primary-400 hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(234,88,12,0.4)]">
+   666                      Login Sekarang
+
+   668                  </a>
+   669:                 <a href="#about" class="px-6 md:px-9 py-3 md:py-4 bg-transparent text-white font-syne text-sm md:text-[15px] font-semibold no-underline rounded-[10px] border-2 border-white/35 transition-all duration-300 backdrop-blur-[10px] hover:border-white hover:bg-white/10">Pelajari Lebih</a>
+   670              </div>
+
+   684                  <p class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-600 mb-2">Fitur Platform</p><br>
+   685:                 <h2 class="section-title-type section-title-dark font-syne font-extrabold text-white tracking-[-1px] md:tracking-[-1.5px] leading-[1.1] mb-1 inline-block">
+   686                      <span class="type-part text-white" data-text="Fitur Unggulan"></span><span class="typing-cursor-section"></span>
+
+   696                      </div>
+   697:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Aspirasi Mahasiswa</h3>
+   698                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Sampaikan aspirasi dan ide untuk kemajuan bersama dengan mudah dan transparan</p>
+
+   703                      </div>
+   704:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Agenda Kegiatan</h3>
+   705                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Pantau dan ikuti berbagai kegiatan menarik yang diselenggarakan HIMA PTI</p>
+
+   710                      </div>
+   711:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Arsip Dokumen</h3>
+   712                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Akses dokumen penting seperti surat, notulensi, dan arsip lainnya kapan saja</p>
+
+   717                      </div>
+   718:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Pendaftaran Pengurus</h3>
+   719                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Bergabung menjadi pengurus dan berkontribusi aktif dalam organisasi</p>
+
+   724                      </div>
+   725:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Program Kerja</h3>
+   726                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Monitoring dan evaluasi program kerja secara transparan dan terukur</p>
+
+   731                      </div>
+   732:                     <h3 class="font-syne text-lg font-bold text-white mb-3 tracking-[-0.3px]">Rapat & Notulensi</h3>
+   733                      <p class="text-xs md:text-sm text-white/45 leading-[1.7]">Kelola jadwal rapat dan dokumentasi notulensi dengan rapi dan terorganisir</p>
+
+   753                      <p class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-500 mb-2">Tentang Kami</p><br>
+   754:                     <h2 class="section-title-type about-title font-syne font-extrabold leading-[1.1] tracking-[-1px] text-black mb-1 inline-block">
+   755                          <span class="type-part text-black" data-text="Tentang "></span><em class="type-part not-italic text-primary-500" data-text="HIMADIKTI"></em><span class="typing-cursor-section"></span>
+
+   760                          <div class="group relative pl-6 border-l-4 border-primary-600">
+   761:                             <h3 class="font-syne font-bold text-lg mb-2 flex items-center gap-2 text-black"><span class="text-primary-600">01.</span> Visi</h3>
+   762                              <p class="text-gray-500 text-sm md:text-base leading-[1.8]">Menjadikan HIMADIKTI sebagai organisasi yang unggul dalam pengembangan IPTEK pendidikan, inovatif dalam berkarya, serta berlandaskan nilai kekeluargaan yang religius dan profesional.</p>
+
+   764                          <div class="group relative pl-6 border-l-4 border-gray-200 hover:border-primary-600 transition-colors duration-300">
+   765:                             <h3 class="font-syne font-bold text-lg mb-3 flex items-center gap-2 text-black"><span class="text-primary-600">02.</span> Misi</h3>
+   766                              <ul class="space-y-3">
+
+   817                  <p class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-600 mb-2">Galeri Keberhasilan</p><br>
+   818:                 <h2 class="section-title-type section-title-dark font-syne font-extrabold text-white tracking-[-1px] leading-[1.1] mb-1 inline-block">
+   819                      <span class="type-part text-white"   data-text="Proker "></span><span
+
+   934                                          <text x="18" y="22" text-anchor="middle"
+   935:                                               style="fill:#fff;font-size:8px;font-weight:700;font-family:Syne,sans-serif;"
+   936                                                transform="rotate(90,18,18)">100%</text>
+
+  1055                  <span class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-500 mb-3">Kepengurusan</span><br>
+  1056:                 <h2 class="section-title-type font-syne font-extrabold text-black tracking-tight leading-tight text-2xl md:text-4xl inline-block">
+  1057                      <span class="type-part text-black" data-text="Badan Pengurus "></span><span class="type-part text-primary-500" data-text="Inti"></span><span class="typing-cursor-section"></span>
+
+  1130                  <span class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-500 mb-3">Kepemimpinan Divisi</span><br>
+  1131:                 <h2 class="section-title-type font-syne font-extrabold text-white tracking-tight leading-tight text-2xl md:text-4xl inline-block">
+  1132                      <span class="type-part text-white" data-text="Ketua "></span><span class="type-part text-primary-500" data-text="Divisi"></span><span class="typing-cursor-section"></span>
+
+  1162                                      <div class="p-4">
+  1163:                                         <h3 class="font-syne font-bold text-sm md:text-base text-white">{{ $m['name'] }}</h3>
+  1164                                          <p class="text-primary-400 text-xs mt-1 font-medium">{{ $m['role'] }}</p>
+
+  1184                  <span class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-500 mb-3">Unit Kerja</span><br>
+  1185:                 <h2 class="section-title-type font-syne font-extrabold text-gray-900 tracking-tight leading-tight text-2xl md:text-4xl inline-block">
+  1186                      <span class="type-part text-gray-900" data-text="Divisi "></span><span class="type-part text-primary-500" data-text="Kami"></span><span class="typing-cursor-section"></span>
+
+  1227                  <span class="inline-block text-[10px] md:text-[11px] font-bold tracking-[3px] uppercase text-primary-500 mb-4">Apresiasi & Kebanggaan</span><br>
+  1228:                 <h2 class="section-title-type font-syne font-extrabold leading-[1.1] tracking-[-1px] text-3xl md:text-5xl mb-1 inline-block">
+  1229                      <span class="type-part text-primary-600" data-text="Congratulations!"></span><span class="typing-cursor-section"></span>
+
+  1251                          <img src="{{ asset('images/himadikti.png') }}" alt="HIMADIKTI" class="h-9 w-auto">
+  1252:                         <span class="font-syne font-extrabold text-2xl text-orange-600">HIMADIKTI</span>
+  1253                      </div>
+
+  1256                  <div>
+  1257:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4">Navigasi</p>
+  1258                      <div class="flex flex-col gap-2.5">
+
+  1266                  <div>
+  1267:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4">Divisi</p>
+  1268                      <div class="flex flex-col gap-2.5">
+
+  1277                  <div>
+  1278:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4">Kontak</p>
+  1279                      <div class="flex flex-col gap-3">
+
+resources\views\divisi\show.blade.php:
+  156                  <span
+  157:                     class="font-syne font-extrabold text-xl tracking-tight text-white group-hover:text-orange-500 transition-colors">
+  158                      HIMADIKTI
+
+  185                  <a href="/register"
+  186:                     class="px-6 py-2.5 bg-orange-600 text-white font-syne text-[0.8rem] font-bold no-underline rounded-full transition-all duration-300 hover:bg-orange-500 hover:shadow-[0_8px_20px_rgba(234,88,12,0.4)] hover:-translate-y-0.5 active:scale-95">
+  187                      Daftar
+
+  259                  <h2
+  260:                     class="dynamic-title font-syne text-[clamp(1.6rem,3vw,2.2rem)] font-extrabold text-gray-900 mb-1.5 inline-block">
+  261                      Program <span class="text-orange-600">Kerja</span></h2>
+
+  309                  <h2
+  310:                     class="dynamic-title font-syne text-[clamp(1.6rem,3vw,2.2rem)] font-extrabold text-white mb-1.5 inline-block">
+  311                      Anggota <span class="text-orange-600">Divisi</span></h2>
+
+  336                              <div>
+  337:                                 <p class="font-syne text-[.9rem] font-bold text-white"><?php echo $staff['name']; ?></p>
+  338                                  {{-- Role/Jabatan - Diubah bg-orange-600 text-white --}}
+
+  372          {{-- Teks diubah jadi gray-900 --}}
+  373:         <h2 class="font-syne text-[clamp(1.6rem,3vw,2.4rem)] font-extrabold text-gray-900 mb-2 relative z-10">
+  374              Kembali ke <span class="text-orange-600">Halaman Utama</span>
+
+  381          <a href="{{ route('home') }}"
+  382:             class="inline-flex items-center gap-2.5 py-3.5 px-8 bg-orange-600 text-white font-syne text-[.9rem] font-bold no-underline rounded-xl transition-all duration-300 shadow-[0_4px_20px_rgba(234,88,12,.3)] hover:-translate-y-1 hover:bg-orange-700 hover:shadow-[0_12px_32px_rgba(234,88,12,.45)] relative z-10">
+  383              <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.5"
+
+  400                          <img src="{{ asset('images/himadikti.png') }}" alt="HIMADIKTI" class="h-9 w-auto">
+  401:                         <span class="font-syne font-extrabold text-2xl text-orange-600">HIMADIKTI</span>
+  402                      </div>
+
+  422                  <div>
+  423:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4.5">
+  424                          Navigasi</p>
+
+  442                  <div>
+  443:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4.5">Divisi
+  444                      </p>
+
+  468                  <div>
+  469:                     <p class="font-syne text-[.8rem] font-bold tracking-[1.5px] uppercase text-white/90 mb-4.5">Kontak
+  470                      </p>
